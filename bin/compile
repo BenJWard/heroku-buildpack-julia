@@ -8,7 +8,7 @@ PROFILE_PATH=".profile.d/julia.sh"
 
 mkdir .profile.d
 
-echo $(ls)
+echo $(ls -a)
 
 set-env() {
   echo "export $1=$2" >> $PROFILE_PATH
